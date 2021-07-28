@@ -1,0 +1,251 @@
+/*Menu*/
+body {
+    position: relative;
+}
+
+div.caixa {
+    background-image: url("../imgs/background-login-3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+
+.logo {
+    width: 100%;
+    margin-top: 31px;
+}
+
+.menu {
+    background: #000;
+    margin: 0px;
+    padding: 0px;
+}
+ul.menu {
+    list-style: none;
+    width: 100%;
+    margin: 0px;
+    padding: 12px;
+}
+ul.menu li {
+    text-align: center;
+}
+ul.menu li a {
+    text-decoration: none;
+}
+
+ul.menu li h1 {
+    font-size: 18px;
+    margin: 4px;
+    font-weight: bold;
+    color: #fff;
+}
+
+img.img-menu {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.clear {
+    clear: both;
+}
+
+/*Actions*/
+
+.actions{
+    background-color: #ccc;
+    width: 100%;
+
+    height: fit-content;
+
+    padding: 1rem;
+
+    display: grid;
+
+    grid-template-columns: min-content max-content;
+
+    grid-gap: 0.7rem;
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+.actions__add{
+    flex: 1;
+}
+.actions__add a{
+    background: #636363;
+    color: #fff;
+    padding: 7px;
+    border-radius: 4px;
+}
+
+.actions__form{
+    flex: 1;
+}
+.actions__form form{
+    display: inline;
+}
+.actions__form form input{
+    display: inline !important;
+    padding: 6px 10px;
+    border-radius: 4px;
+    border: 0;
+}
+.actions__form form button{
+    display: inline;
+    border: 0;
+    padding: 6px;
+    width: 2.5rem;
+    background: #000;
+    color: #fff;
+    border-radius: 4px;
+
+}
+
+/*Relatorios*/
+div.relatorios {
+
+}
+
+ul.relatorios {
+    float: left;
+    width: 100%;
+    list-style: none;
+    margin: 38px 0px;
+}
+
+ul.relatorios li a{
+    background: #000;
+    text-align: center;
+    margin: 14px 0px;
+    text-decoration: none;
+    float: left;
+    width: 100%;
+    padding: 14px;
+    border-radius: 10px;
+}
+
+ul.relatorios li h1 {
+    font-size: 16px;
+    color: #fff;
+}
+
+.musics {
+    text-decoration: none !important;
+    color: #000 !important;
+    margin: 4px !important;
+}
+
+.edit {
+    text-decoration: none;
+    color: #000;
+    margin: 4px;
+}
+
+.delete {
+    text-decoration: none;
+    color: #000;
+    margin: 4px;
+}
+
+.musics:hover {
+    color: #fb503b !important;
+}
+
+.edit:hover {
+    color: #909090;
+}
+.delete:hover {
+    color: #f00;
+}
+
+h1.title {
+    color: #191919;
+    margin: 20px 0px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/*Footer*/
+footer {
+    background: #ccc;
+    padding: 10px;
+    width: 100%;
+}
+
+footer p {
+    color: #0c0c0c;
+    font-weight: 500;
+}
+
+/*Login*/
+div.login {
+    max-width: 500px;
+    background: #ccc;
+    border-radius: 10px;
+    flex: 1;
+}
+form.login {
+    padding: 15px;
+}
+.login-header {
+    text-align: center;
+    padding: 10px;
+    background: #000;
+    border-radius: 10px 10px 0 0;
+}
+img.logo-login {
+    max-width: 150px;
+}
+
+form.login input {
+    border: none;
+    height: 3rem;
+}
+
+.btn-login {
+    background: #0c0c0c;
+    width: 100%;
+    color: #fff !important;
+    font-weight: bold;
+    font-size: 1.1rem;
+    height: 44px;
+}
+
+a.recuperar {
+    font-size: 14px;
+    text-decoration: none;
+    color: #0c0c0c;
+    width: 100%;
+}
+
+a.recuperar:hover {
+    color: #fff;
+}
+
+div.recuperar {
+    text-align: center;
+    margin: 0;
+}
+
+/*Responsividade*/
+
+@media screen and (min-width: 991px){
+    .actions{
+        grid-template-columns: min-content max-content 1fr;
+    }
+}

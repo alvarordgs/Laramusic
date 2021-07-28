@@ -1,0 +1,1 @@
+Click here to reset your password: <a href="{{ url('http://laramusic/password/reset/'.$token) }}">Resetar Senha</a>

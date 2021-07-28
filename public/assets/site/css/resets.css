@@ -1,0 +1,15 @@
+.jp-playlist {
+    background-color: #555 !important;
+}
+
+.jp-playlist-item {
+    color: #fff !important;
+}
+
+.jp-audio, .jp-audio-stream, .jp-video {
+    border: 1px solid #555 !important;
+}
+
+.jp-details, .jp-playlist {
+    border-top: 1px solid #555 !important;
+}
