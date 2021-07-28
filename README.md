@@ -6,7 +6,7 @@ Hi, this is the Laramusic, my first project and experience with Laravel framewor
 ## Languages and tools
 
 On this project was used:
-:elephant: Php
-:orange_book: Laravel
-:space_invader: Bootstrap
-:curly_loop: jQuery
+- :elephant: Php
+- :orange_book: Laravel
+- :space_invader: Bootstrap
+- :curly_loop: jQuery
